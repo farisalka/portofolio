@@ -8,7 +8,6 @@ body {
   background-color: var(--mainColor);
   min-height: 900px;
   font-family: 'ubuntu', sans-serif;
-  margin-top: 50px;
 }
 
 p {
@@ -23,7 +22,8 @@ hr {
   opacity: 100%;
 }
 
-h1 {
+h1,
+h5 {
   color: #fff;
 }
 
@@ -32,6 +32,13 @@ h1 {
   color: var(--primeColor) !important;
   font-weight: 700;
 }
+
+.nav-dark {
+  background-color: var(--secondaryColor) !important;
+  z-index: 10;
+  transition: 0.8s;
+}
+
 /* END Navbar */
 
 /* Hero */
@@ -42,6 +49,7 @@ h1 {
 #hero {
   color: #fff;
   min-height: 100vh;
+  padding-top: 75px;
 }
 
 #hero h1 {
@@ -82,6 +90,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+.social-icon a {
+  text-decoration: none;
+}
+
 /* END Hero */
 
 /* About */
@@ -99,7 +111,7 @@ h1 {
 
 /* Skill */
 #skill {
-  min-height: 600px;
+  min-height: 400px;
   width: 100%;
   color: #fff;
 }
@@ -110,3 +122,39 @@ h1 {
 }
 
 /* END Skill */
+
+/* Project */
+
+#project {
+  min-height: 300px;
+  width: 100%;
+  background-color: var(--secondaryColor);
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+#project .container {
+  padding: 80px 10px;
+}
+
+#project img {
+  width: 100%;
+}
+
+#project a:hover {
+  box-shadow: 0 0 15px rgba(100, 180, 255, 0.8);
+}
+
+/* END Project */
+
+/* Footer */
+.social-icon-footer svg {
+  margin-right: 0.3em;
+}
+
+.social-icon-footer a {
+  text-decoration: none;
+}
+/* END Footer */

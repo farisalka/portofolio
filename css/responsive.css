@@ -1,0 +1,52 @@
+@media screen and (max-widht: 1200px) {
+  #hero p {
+    font-size: 0.9rem;
+  }
+
+  #hero h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-widht: 768px) {
+  #hero img {
+    width: 60%;
+  }
+
+  .social-icon {
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .btn-custom1 {
+    width: 80%;
+  }
+
+  #hero .row {
+    padding-bottom: 75px;
+  }
+
+  #about p {
+    text-align: justify !important;
+  }
+}
+
+@media screen and (max-widht: 576px) {
+  hr {
+    width: 75%;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-widht: 350px) {
+  #project .col-md-12 {
+    flex-direction: column;
+  }
+}
