@@ -1,7 +1,7 @@
 :root {
   --mainColor: #252734;
   --secondaryColor: #333646;
-  --primeColor: rgb(100, 180, 255);
+  --primeColor: #64b4ff;
 }
 
 body {
@@ -102,7 +102,7 @@ h5 {
   width: 100%;
   background-color: var(--secondaryColor);
   color: #fff;
-  padding-top: 80px;
+  padding-top: 90px;
   padding-bottom: 80px;
   margin-bottom: 80px;
 }
@@ -131,8 +131,6 @@ h5 {
   background-color: var(--secondaryColor);
   color: #fff;
   padding-top: 40px;
-  padding-bottom: 80px;
-  margin-bottom: 80px;
 }
 
 #project .container {
@@ -148,6 +146,38 @@ h5 {
 }
 
 /* END Project */
+
+/* Contact */
+#contact {
+  min-height: 300px;
+  width: 100%;
+  background-color: var(--primeColor);
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+#contact hr {
+  width: 35%;
+  height: 5px;
+  color: #fff;
+  margin: 0 auto;
+  opacity: 100%;
+}
+
+#form-contact {
+  margin-top: 40px;
+}
+
+#form-contact .btn {
+  margin-top: 0.5em;
+  margin-left: 65%;
+}
+
+.input-contact {
+  margin-left: 15px;
+}
+/* END Contact */
 
 /* Footer */
 .social-icon-footer svg {
